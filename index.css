@@ -1,0 +1,98 @@
+* {
+  box-sizing: content-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 375px;
+  height: 594px;
+  background-color: #c4c4c4;
+}
+
+/*Nav*/
+.logo-nav {
+  width: 54px;
+  height: 50px;
+  padding: 18px 17px;
+}
+.hamburguer {
+  width: 54px;
+  height: 50px;
+  padding: 18px 17px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Main*/
+
+.foto-personal {
+  width: 318px;
+  height: 300px;
+  padding: 58px 26px;
+}
+
+.titulo {
+  width: 291px;
+  height: 96px;
+  padding: 0 42px;
+}
+
+.tittle {
+  font-size: 48px;
+}
+
+/* Section */
+
+.abaout-me {
+  background-color: black;
+  color: white;
+}
+
+.contenedor-section {
+  display: flex;
+  justify-content: center;
+}
+
+.soy-rama {
+  font-size: 32px;
+}
+
+.parrafo {
+  padding: 0 32px;
+}
+
+.check {
+  width: 80px;
+  height: 80px;
+  padding: 57px 148px;
+}
+
+/* Artiqle*/
+
+.article {
+  width: 370px;
+  height: 1375px;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.mis-servicios {
+  font-size: 32px;
+}
+
+.hago-cosas {
+  font-size: 24px;
+}
+
+.p {
+  width: 262px;
+  height: 117px;
+}
+.compu {
+  width: 138px;
+  height: 128px;
+}
